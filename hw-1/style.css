@@ -1,0 +1,213 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("imgs/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+
+}
+/* Michael Musick's Notes*/
+/* Description of Media Artist Rules */
+/* Parallax-Like Effect */
+.description-container {
+    min-height: 50vh;
+    font-size: 1.8em;
+}
+
+.description {
+    margin: 25vh auto;
+    padding: 1em;
+    text-align: center;
+    width: 75%;
+    min-width: 300px;
+    background-color: rgba(0, 33, 255, 0.3);
+}
+
+.description h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 2.0em;
+  letter-spacing: 0.1em;
+}
+
+@media (max-width: 865px) {
+    .description-container {
+        font-size: 1.5em;
+    }
+}
+/* Michael Musick's Notes*/
+/* Hero Image Rules */
+.hero {
+    /* Michael Musick's Notes*/
+    /* the 'vh' unit asks the browser to */
+    /* return the height of the viewport */
+    /* we can then use that to set the height of an element */
+    /* as a percentage of the viewport height (vh) */
+    height: 100vh;
+    min-height: 750px;
+    background-image: url("imgs/hero02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, .9);
+}
+
+.hero .title {
+    font-size: 20pt;
+    color: #98a3db;
+    float: center;
+    margin-top: 0;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 6em;
+    text-align: center;
+    background-color: rgba(0, 33, 255, 0.3);
+}
+
+.title h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+}
+
+.title h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    line-height: 0.5em;
+}
+
+.hero .nav {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: #98a3db;
+    margin-top: 2em;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+.hero .nav a {
+    flex-grow: 1;
+    color: #98a3db;
+    text-decoration: none;
+}
+
+.hero .nav-item {
+    font-size: 0.5em;
+    padding: 0.5em 1em;
+    margin: 0 0.5em;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.hero .nav-item:hover {
+    color: #fff;
+    background-color: rgba(217, 82, 82, 0.7);
+}
+
+
+@media (max-width: 865px) {
+    .hero {
+        min-height: 730px;
+    }
+    .hero .title {
+        font-size: 18pt;
+    }
+}
+
+@media (max-width: 585px) {
+    .hero {
+        min-height: 500px;
+    }
+    .hero .title {
+        font-size: 14pt;
+        margin: 0;
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 445px) {
+    .hero .title {
+        font-size: 12pt;
+    }
+}
+
+/* Project Menu Setup */
+.menu {
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding: 1em;
+    background-color: rgb(24, 23, 23);
+    color: #667ade;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    text-align: center;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, .8);
+}
+
+.menu a {
+    color: #3450de;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #d95353;
+    text-decoration: none;
+}
+
+.menu h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: lighter;
+  font-size: 2.0em;
+  letter-spacing: 0.1em;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.menu .menu-group-container {
+    display: flex;
+    flex-flow: row wrap;
+    flex-grow: 1;
+    justify-content: space-around;
+}
+.menu .menu-group {
+    padding: 1em;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.menu .menu-head {
+    color: #d95353;
+    font-style: italic;
+    font-size: 2em;
+    padding: 1em;
+}
+
+.menu .menu-item {
+    text-align: left;
+    font-style: normal;
+}
+
+.menu .menu-item-title {
+    color: #d95353;
+    font-style: italic;
+    text-align: left;
+    font-style: normal;
+}
+
+.album-image img {
+      align-content: center;
+      height: auto;
+      max-width: 95%;
+      margin-bottom: 2em;
+      vertical-align: bottom
+}
