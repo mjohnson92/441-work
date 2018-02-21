@@ -31,15 +31,19 @@ the correct output occurs.
 //
 // Your code goes here
 
+function squarePrintFuncDef(value1) {
+     let yourResult = "The Result is: " + (value1 * value1);
+     console.log(yourResult);
+};
 
+var squarePrintFuncExpress = function(numberInput) {
+     let yourAnswer = "The result is: " + (numberInput * numberInput);
+     console.log(yourAnswer);
+};
 
 // Function Calls - DO NOT ALTER
 squarePrintFuncDef( 2 );
 squarePrintFuncExpress( 2 );
-
-
-
-
 
 
 /**************************************************/
@@ -49,18 +53,20 @@ squarePrintFuncExpress( 2 );
 
 // Your code here.
 
-
-
+function min(minimum, maximum){
+  if (minimum > maximum) {
+    console.log(maximum);
+  }
+  else { (minimum < maximum)
+    console.log(minimum);
+  }
+}
 
 // Function Calls - DO NOT ALTER
 console.log( min(0, 10) );
 // → 0
 console.log( min(0, -10) );
 // → -10
-
-
-
-
 
 
 /**************************************************/
@@ -72,7 +78,18 @@ console.log( min(0, -10) );
 
 // Your code here.
 
-
+function countChar(word, letter) {
+    var amountOfLetters = 0;
+    //we are not counting letters yet, start at 0.
+    for (var i = 0; i < word.length; i += 1) {
+    // as long as i is less than word length += 1 is added to reference placement in our word
+        if (word[i] === letter) {
+            amountOfLetters += 1;
+        // if the i placement in word is equivalent to the letter that is there add 1 to amount of letters.
+        }
+    }
+    return amountOfLetters;
+}
 
 // Function Calls - DO NOT ALTER
 console.log( countChar("BBC", "B") );
@@ -81,7 +98,6 @@ console.log( countChar("kakkerlak", "k") );
 // → 4
 console.log( countChar("michael", "M") );
 // → 0
-
 
 
 /**************************************************/
@@ -96,7 +112,24 @@ console.log( countChar("michael", "M") );
 
 // Your code here.
 
+function range(start, end, step) {
 
+  end = end || 0;
+  step = step || 1;
+
+  for (var numberArray = []; (end - start) * step >= 0; start += step) {
+    numberArray.push(start);
+  }
+  return numberArray;
+}
+
+function sum(numbersInArray) {
+  var theSum = 0;
+  for (var i = 0; i < numbersInArray.length; i++)
+    theSum += numbersInArray[i];
+    return theSum;
+
+}
 
 
 // Function Calls - DO NOT ALTER
