@@ -28,7 +28,7 @@ To begin, you should select the body element from the DOM, then remove its exist
 */
 
 var albumImage = new Image (750, 750);
-albumImage.src = "../HW-6/images/humanlines.jpg"
+albumImage.src = "../hw-6/images/humanlines.jpg"
 
 //body
 let body = document.body;
