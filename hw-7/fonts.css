@@ -1,0 +1,26 @@
+/* ///// Roboto ///// */
+
+@font-face {
+   font-family: 'Roboto';
+   src: url('./fonts/Roboto-Light.ttf') format('opentype');
+   font-weight: lighter;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Roboto';
+   src: url('./fonts/Roboto-LightItalic.ttf') format('opentype');
+   font-weight: lighter;
+   font-style: italic;
+}
+@font-face {
+   font-family: 'Roboto';
+   src: url('./fonts/Roboto-Thin.ttf') format('opentype');
+   font-weight: thin;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Roboto';
+   src: url('./fonts/Roboto-ThinItalic.ttf') format('opentype');
+   font-weight: thin;
+   font-style: italic;
+}

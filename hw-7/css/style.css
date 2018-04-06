@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+font-family: "Open Sans", normal;
+}
+
+ h1 {font-family: 'Open Sans', normal;
+    line-height: 1.5 em;
+    font-weight: 100;
+    margin-bottom: 1em;
+    text-align: center;
+    color: White
+    letter-spacing: 0.2em
+  }
+
+h2 {font-family: 'Open Sans', normal;
+   line-height: 1.5 em;
+   font-weight: 130;
+   margin-bottom: 1em;
+   text-align: center;
+   color: White
+   letter-spacing: 0.2em
+ }
+
+ #textIn1{
+     font-size: 18px;
+     color: Black;
+     font-weight: 200;
+     background-color:#cad9df;
+     border-color:#000000;
+     border-width: 5px;
+     font-family:"Open Sans",normal;
+     border-style: solid;
+     position: relative;
+     margin: auto;
+     top: 1em;
+     padding: 1em;
+     width: 8em;
+     text-align: center;
+}
+
+#runButton {
+     font-size: 18px;
+     font-weight: 200;
+     background-color: #cad9df;
+     color: Black;
+     border-color:#000000;
+     border-width: 5px;
+     font-family:"Open Sans",normal;
+     border-style: solid;
+     position: relative;
+     margin: auto;
+     top: 1em;
+     padding: 1em;
+     width: 8em;
+     text-align: center;
+    }
+
+    #runButton:hover{
+  background-color:#89959a;
+  color: #ffffff;
+}
+
+#b1 {
+    font-size: 18px;
+    color: Black;
+    font-weight: 200;
+    background-color:#4a302a;
+    border-color:#000000;
+    border-width: 5px;
+    font-family:"Open Sans",normal;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    top: 1em;
+    padding: 1em;
+    width: 8em;
+    text-align: center;
+  }
+
+  #b1:hover{
+background-color:#4d3d3d;
+color: #ffffff;
+}
+
+#b2 {
+    font-size: 18px;
+    color: Black;
+    font-weight: 200;
+    background-color:#4a302a;
+    border-color:#000000;
+    border-width: 5px;
+    font-family:"Open Sans",normal;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    top: 1em;
+    padding: 1em;
+    width: 8em;
+    text-align: center;
+  }
+
+  #b2:hover{
+background-color:#4d3d3d;
+color: #ffffff;
+}
+
+#b3 {
+    font-size: 18px;
+    color: Black;
+    font-weight: 200;
+    background-color:#4a302a;
+    border-color:#000000;
+    border-width: 5px;
+    font-family:"Open Sans",normal;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    top: 1em;
+    padding: 1em;
+    width: 8em;
+    text-align: center;
+  }
+
+  #b3:hover{
+background-color:#4d3d3d;
+color: #ffffff;
+}
+
+#b4 {
+    font-size: 18px;
+    color: Black;
+    font-weight: 200;
+    background-color:#4a302a;
+    border-color:#000000;
+    border-width: 5px;
+    font-family:"Open Sans",normal;
+    border-style: solid;
+    position: relative;
+    margin: auto;
+    top: 1em;
+    padding: 1em;
+    width: 8em;
+    text-align: center;
+  }
+
+  #b4:hover{
+background-color:#4d3d3d;
+color: #ffffff;
+}
+
+.nameForm {
+   position: relative;
+   margin: auto;
+   top: 1em;
+   padding: 2em;
+   text-align: center;
+}
+
+.storageDiv {
+  padding: 1em;
+  font-family: "Open Sans", normal;
+  text-align: center;
+  color: white;
+  line-height: 1.5em;
+}
+
+.first-paragraph {
+   padding: 1em;
+   font-size: 20px;
+   font-family: "Open Sans", normal;
+   text-align: center;
+   color: white;
+   line-height: 1.5em;
+ }
+
+.route1-paragraph {
+   padding: 1em;
+   font-size: 20px;
+   font-family: "Open Sans", normal;
+   text-align: center;
+   color: White;
+   line-height: 1.5em;
+ }
+
+ .route2-paragraph {
+    padding: 1em;
+    font-size: 20px;
+    font-family: "Open Sans", normal;
+    text-align: center;
+    color: Black;
+    line-height: 1.5em;
+  }
+
+  .valley-paragraph {
+     padding: 1em;
+     font-size: 20px;
+     font-family: "Open Sans", normal;
+     text-align: center;
+     color: Blue;
+     line-height: 1.5em;
+   }
+
+   .end-paragraph {
+      padding: 1em;
+      font-size: 20px;
+      font-family: "Open Sans", normal;
+      text-align: center;
+      color: Black;
+      line-height: 1.5em;
+    }
+
+    .cave-paragraph {
+       padding: 1em;
+       font-size: 20px;
+       font-family: "Open Sans", normal;
+       text-align: center;
+       color: Red;
+       line-height: 1.5em;
+     }
+  #myDiv {
+      transition: background-color 2s;
+  }
+
+  .d1 {
+text-align: center;
+  margin: auto;
+}
+
+.d2 {
+  text-align: center;
+    margin:auto;
+}
+
+.d3 {
+  text-align: center;
+    margin:auto;
+}
+
+.d4 {
+  text-align: center;
+    margin:auto;
+}

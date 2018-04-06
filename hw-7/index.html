@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name = "description" content= "Choice Story Site">
+<meta name="author" content="Michael Johnson">
+<meta name="viewport" content="width=device-width, initial-scale-1.0">
+ <link rel= "stylesheet" href="./css/style.css">
+
+ <!--Title-->
+    <title>Story Game</title>
+  </head>
+<body>
+
+
+<!--Name Form-->
+  <form class="nameForm" action="#" method="post">
+    <input type="text" name="textInput" placeholder="Enter your name here" id="textIn1">
+    <button type="button" name="button" id="runButton" onclick="this.disabled = true;">Confirm</button>
+</form>
+
+ <!--Insert for extra text-->
+  <div class="storageDiv" id="storageDiv">
+  </div>
+
+  <!--Buttons-->
+    <div class="d1">
+         <br>
+    <button id="b1">Walk East</button>
+    </div>
+
+    <div class="d2">
+      <br>
+    <button id="b2">Walk West</button>
+    </div>
+
+    <div class="d3">
+      <br>
+    <button id="b3" hidden="true" >Move Forward</button>
+    </div>
+
+    <div class="d4" >
+      <br>
+    <button id="b4" hidden="true" >Move Forward</button>
+    </div>
+
+<!--paragraph and text content-->
+  <div class="first-paragraph">
+     <h1>Welcome to your adventure!</h1>
+     <p> You are hiking and suddenly you realize something. <br>
+       You are lost on a mountainside and looking for your way back home. <br>
+       You can choose to either go east or west. Which way will you go?</p>
+   </div>
+
+    <div class="route1-paragraph" hidden="true">
+       <h1>You've headed East</h1>
+       <p> You find yourself at the edge of a lake. It's beauty keeps you in awe, you decide to rest. <br>
+          You catch some fish and cook them by a fire. You wake up bright and early the next morning.<br>
+         You start to question the route you started to take. where will you go next? </p>
+     </div>
+
+     <div class="route2-paragraph" hidden="true">
+        <h1> You've Headed West</h1>
+        <p>  You find yourself on a cliff looking at a beautiful landscape. <br>
+          You watch as the sun sets on the horizon. You have good faith you're on the right path.<br>
+          You see a cave down low in the distance. Maybe it's a shortcut. Which way will you go? </p>
+      </div>
+
+      <div class="cave-paragraph" hidden="true">
+         <h1> Death Was Inevitable</h1>
+         <p>  You search for a way through the cave but trip and fall. <br>
+           You fear you've made a terrible mistake. <br>
+           You fall down a hole a crack your skull open! </p>
+       </div>
+
+       <div class="valley-paragraph" hidden="true">
+          <h1> You've reached a Valley</h1>
+          <p> It's a beautiful place to rest. There may be a good spot up ahead.<br>
+            You wander through the valley and spot smoke over the hill. <br>
+            Theres a chance it might be civilization, do you keep going? </p>
+        </div>
+
+        <div class="end-paragraph" hidden="true">
+           <h1> You've found your home!</h1>
+           <p>  You sprint down to your front door with joy.<br>
+             It's time to kick off the shoes and take a nap! You feel accomplished. </p>
+         </div>
+<!--Music embedded from soundcloud-->
+<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/215153830&color=%23d95353&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true" hidden = "true"></iframe>
+
+<!--Run script!-->
+       <script src="./scripts/scripts.js"></script>
+</body>
+</html>
