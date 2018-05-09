@@ -4,6 +4,8 @@ I added several webpages to the site, one for each project. In the original webs
 
 When I have more time I would like to go in and understand the styling and javascript a bit more. I find it hard for me to believe that I will dive deeper into javascript. I really enjoy doing HTML and CSS though so I may need t get better at javascript if I want to fully utilize those other languages. I understood p5 a bit more than original javascript but they may have been due to schiffman and more content in the 120 class.
 
+Thankfully all of my knowledge of HTML, CSS, and Javascript made it so curating this template to something of my own style wasn't too difficult. The hardest part was navigating the CSS to see what made changes elsewhere.
+
 It was nice to at least dive in a bit into javascript and see how it works. I hope I do get more comfortable with it but it will require more assignments and reasons for me to use it.
 
 I hope you enjoy my portfolio and the music I create!
